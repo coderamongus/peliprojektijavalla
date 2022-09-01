@@ -48,6 +48,18 @@ public class Main {
 
                 System.out.println("Väärä kirjain");
             }
+            
+             boolean tehty = true;
+
+            for(int i = 0; i < vastaus.length; i++) {
+                if(vastaus[i] == '?') {
+                    System.out.println(" _");
+                    tehty = false;
+                } else {
+                    System.out.println(" " + vastaus[i]);
+                }
+            }
+            System.out.println("\n" + "Elämiä jäljellä: " + elamat);
         }
     }
 }
