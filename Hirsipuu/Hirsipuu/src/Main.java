@@ -33,6 +33,20 @@ public class Main {
 
             while (kirjain.length() != 1 || Character.isDigit(kirjain.charAt(0))) {
                 System.out.println("Väärä syöte, Kokeile uudestaan");
+                 kirjain = input.next();
+            }
+             boolean loyty = false;
+            for(int i = 0; i < tekstiArray.length; i++) {
+                if(kirjain.charAt(0) == tekstiArray[i]) {
+                    vastaus[i] = tekstiArray[i];
+                    loyty = true;
+                }
+            }
+
+            if(!loyty) {
+                elamat--;
+
+                System.out.println("Väärä kirjain");
             }
         }
     }
