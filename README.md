@@ -1,4 +1,2 @@
-# nettisivuamongus
-# nettisivuamongus
-# nettisivuamongus
+
 # peliprojektijavalla
