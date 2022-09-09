@@ -27,7 +27,7 @@ public class Main {
         boolean valmis = false;
 
         while (valmis == false) {
-            System.out.println("_______________________");
+            System.out.println("-------------------");
 
             String kirjain = input.next();
 
