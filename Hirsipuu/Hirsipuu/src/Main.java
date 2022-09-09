@@ -53,10 +53,10 @@ public class Main {
 
             for(int i = 0; i < vastaus.length; i++) {
                 if(vastaus[i] == '?') {
-                    System.out.println(" _");
+                    System.out.print(" _");
                     tehty = false;
                 } else {
-                    System.out.println(" " + vastaus[i]);
+                    System.out.print(" " + vastaus[i]);
                 }
             }
             System.out.println("\n" + "Elämiä jäljellä: " + elamat);
